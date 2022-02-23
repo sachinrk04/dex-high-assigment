@@ -1,0 +1,38 @@
+.home-page-medium {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid; */
+}
+
+.home-page-medium-header-chart {
+    width: 100%;
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+
+.home-page-medium-header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.home-page-medium-chart {
+    margin-left: 10px;
+}
+
+.home-page-medium-chart > div > label, .home-page-medium-chart > div > select {
+    display: none;
+}
+
+.home-page-medium-content {
+    width: 100%;
+    border: 1px solid gainsboro;
+    display: flex;
+}
+
+.home-page-medium-content > .medium-content-left {
+    flex: 1;
+}
+.home-page-medium-content > .medium-content-right {
+    flex: 1;
+}

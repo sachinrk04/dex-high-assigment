@@ -1,0 +1,55 @@
+.buy-price-table-row {
+    cursor: pointer;
+}
+
+.buy-price-table-cell {
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.buy-price-table-cell > div {
+    width: 100%;
+    background: none;
+}
+
+.progress-box {
+    background: none;
+    position: relative;
+    text-align: center;
+}
+
+.progress-box-bar {
+    height: 14px;
+    position: absolute;
+    left: 1px;
+    top: 2px;
+    z-index: 1;
+}
+
+.progress-box-bar-green {
+    background-color: rgba(0, 151, 19, 0.2);
+}
+
+.progress-box-bar-red {
+    background-color: rgba(255, 51, 51, 0.2);
+}
+.progress-box-value {
+    width: 100%;
+    background: none;
+}
+
+.set-box {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.buy-price-table-cell-buy {
+    color: green !important;
+}
+
+.buy-price-table-cell-sell {
+    color: red !important;
+}

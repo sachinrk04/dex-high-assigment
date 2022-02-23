@@ -1,0 +1,11 @@
+.btc-tusd-cell-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btc-tusd-cell > img {
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+}

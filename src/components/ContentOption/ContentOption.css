@@ -1,0 +1,115 @@
+/* .content-option {
+    background: red;
+} */
+
+.content-option-header {
+    padding: 10px 20px;
+    color: rgb(92, 110, 234);;
+}
+
+.content-option-avbl {
+    padding: 8px 30px;
+    background-color: rgb(242, 244, 253);
+    text-align: right;
+}
+
+.content-option-avbl > span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.content-option-avbl > .avbl {
+    margin-right: 30px;
+}
+
+.content-option-input-lebal {
+    padding: 10px 20px;
+}
+
+.input-lebal {
+    margin-bottom: 6px;
+    color: rgb(103, 103, 103);
+    font-size: 15px;
+}
+
+.input-box {
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    display: flex;
+    padding: 7px 0px;
+    color: rgb(103, 103, 103);
+}
+
+.input-box > input {
+    flex: 10;
+    text-align: end;
+    border: none;
+    outline: none;
+    padding: 3px;
+}
+
+.input-box > span {
+    flex: 1;
+    padding: 0px 5px;
+    text-align: center;
+}
+.input-box > div {
+    flex: 1;
+    text-align: center;
+}
+
+.min-max-perc {
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.min-max-perc > span {
+    font-size: 12px;
+    border: 1px solid rgb(226, 230, 250);
+    color: rgb(102, 102, 255);
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 4px 6px;
+    width: 15%;
+    text-align: center;
+}
+
+.min-max-order {
+    padding: 4px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(103, 103, 103);
+    font-size: 12px;
+}
+
+.maker-traker {
+    padding: 7px 20px;
+    color: rgb(103, 103, 103);
+    font-size: 11px;
+    text-align: center;
+}
+
+.co-button {
+    padding: 20px 20px;
+}
+
+.co-button > button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.co-button > .button-danger {
+    background: rgb(236, 104, 86);
+    color: rgb(255, 255, 255);
+} 
+
+.co-button > .button-actuve {
+    background: rgb(95, 165, 127);
+    color: rgb(255, 255, 255);
+} 
